@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>《细说PHP》CMS管理平台</title>
+		<title>管理平台</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="Author" content="309Lab" />
 	</head>
