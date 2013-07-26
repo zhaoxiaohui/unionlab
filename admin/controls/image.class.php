@@ -36,7 +36,7 @@
 		}
 
 		function insert(){
-		
+		  //die(var_dump($_FILES));
 			global $pictureSize,$thumbSize;
 			$up=new FileUpload();
 			if(isset($_POST["thumb"])) {

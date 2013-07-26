@@ -303,7 +303,7 @@
         		<div class="dd dot">
           			<ul>
 					<{ section name=article loop=$conns }>
-						<li><a href="<{$url}>/index/aid/<{ $conns[article].id }>"><{ $conns[article].title|truncate:25 }></a></li>
+						<li><a href="<{$url}>/index/aid/<{ $conns[article].id }>"><{ $conns[article].title|truncate:18}></a></li>
 					<{ sectionelse }>
 						<li>本类暂无相关文章</li>
 					<{ /section }>
@@ -316,7 +316,7 @@
         		 <div class="dd dot">
            			<ul>
 					<{ section name="rec" loop=$recommends }>
-						<li><a href="<{$url}>/index/aid/<{ $recommends[rec].id }>"><{ $recommends[rec].title|truncate:25 }></a> <span style="font-size:10px">(<span class="redh"><{$recommends[rec].recommend}></span>人推荐)</span></li>
+						<li><a href="<{$url}>/index/aid/<{ $recommends[rec].id }>"><{ $recommends[rec].title|truncate:15 }></a> <span style="font-size:10px">(<span class="redh"><{$recommends[rec].recommend}></span>人推荐)</span></li>
 					<{ sectionelse }>
 						<li>本类暂无推荐文章</li>
 					<{ /section }>
@@ -329,7 +329,7 @@
         		 <div class="dd dot">
           			<ul>
 					<{ section name="h" loop=$hots }>
-						<li><a href="<{$url}>/index/aid/<{ $hots[h].id }>"><{ $hots[h].title|truncate:18 }></a>&nbsp;&nbsp;<span style="font-size:10px">(浏览<span class="redh"><{$hots[h].views}></span>次)</span></li>
+						<li><a href="<{$url}>/index/aid/<{ $hots[h].id }>"><{ $hots[h].title|truncate:15}></a>&nbsp;&nbsp;<span style="font-size:10px">(浏览<span class="redh"><{$hots[h].views}></span>次)</span></li>
 					<{ sectionelse }>
 						<li>目前还没有任何热门文章</li>
 					<{ /section }>

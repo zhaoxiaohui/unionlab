@@ -68,7 +68,7 @@
 			<div id="menu">
 				<ul>
 					<li><a href="<{$app}>">网站首页</a></li><li class="menudiv"> </li>
-				
+                                        <li><a href="<{$app}>/projects/index">科研成果</a></li><li class = "menudiv"></li>
 					<{ section name=li loop=$menu }>
 						<li><a href="<{$app}>/list/index/pid/<{ $menu[li].id }>"><{ $menu[li].title }></a></li><li class="menudiv"> </li>
 					<{ /section }>

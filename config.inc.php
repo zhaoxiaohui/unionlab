@@ -26,11 +26,11 @@
 	define("ARTICLE_PAGE_SIZE", "20");                                //后台文章每页显示的数目
 	define("COMMENT_PAGE_SIZE", "20");                                //后台文章每页显示的数目
 	define("PICTURE_PAGE_SIZE", "20");                                //后台图片每页显示的数目
-	define("WATER","20130718144041_229.jpg");                                   //水印图片名称
-	define("POSITION", "0");
+	define("WATER","20130723184337_744.png");                                   //水印图片名称
+	define("POSITION", "9");
 	$styleList = array("default" => "默认风格", "cial"=> "时代经典");  	//系统风格数组
 	$pictureSize = array('maxWidth' => 500, 'maxHeight' => 500); 		//定义生成后的大小
 	$thumbSize = array('width' => 200, 'height' => 30);   			//定义缩略图的大小
 	define("APP_NAME", "北邮-易鼎天成联合实验室");
 	define("KEYWORD", "北邮，易鼎天成，联合实验室，移动互联网");
-	define("DESCRIPTION", "智能感知与创新实验室");
+	define("DESCRIPTION", "移动计算与智能感知技术研究中心");

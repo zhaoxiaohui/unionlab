@@ -44,25 +44,10 @@
 					</div>
 				</div>
 				
-				<div id="logo">
-					<a href="<{$app}>"><img border="0" width="250" height="80" alt="xscms_logo" src="<{$public}>/images/BUPT_LOGO.gif"></a>
+				<div class="box_head">
+					<a href="<{$app}>"><img  src="<{$public}>/images/logo.jpg"></a>
 				</div>
-				<div id="right_box">
-					<div id="banner">
-						<!-- 可以在这里加入banner -->	
-   						<a href="http://www.bupt.edu.cn/"><img width="450" height="70" alt="banner" src="<{$res}>/images/banner1.jpg" border=0></a>
-					</div>
-
-					<!--<div id="tool">
-						
-						<ul>
-							<li><a href="">用户定义</a></li>
-							<li><a href="">用户定义</a></li>
-							<li><a href="">用户定义</a></li>
-							<li><a href="">联系我们</a></li>
-						</ul>
-					</div>
-				--></div>
+				
 				<div class="nav"> </div>
 			</div>	
 			<div id="menu">

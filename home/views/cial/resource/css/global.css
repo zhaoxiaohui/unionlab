@@ -4,7 +4,7 @@ body {
 	color:#222;
 	font:12px Verdana,Arial,Tahoma;
 	text-align:center;
-	background:#000 url(../images/backrpg1.jpg) fixed;
+	background:#fff url(../images/backrpg1.jpg) repeat-x left top;
 }
 img {
 	border:none;
@@ -40,15 +40,15 @@ input,select,button{
 	height:18px;
 }
 .button {
-	border:1px solid #B6B3AF;
-	padding:1px 4px;
-	cursor:pointer;
-	background:url(../images/buttonface.gif) repeat-x;
+	  background: url("../images/buttonface.gif") no-repeat;
+    border:none; width:44px; height:21px; line-height:21px; color:#fff;
+    cursor: pointer;
+    padding: 1px 4px;
 }
 /* Ê×Ò³Í¼Æ¬²¥·ÅÆ÷ */
 
 .pwSlide {
-	width:415px;
+	width:381px;
 	position:relative;
 	height:212px;
 	overflow:hidden;
@@ -56,10 +56,10 @@ input,select,button{
 }
 .pwSlide img {
 	height:212px;
-	width:413px;
+	width:380px;
 }
 .pwSlide-bg {
-	width:413px;
+	width:380px;
 	z-index:1;
 	position:absolute;
 	bottom:0px;
@@ -81,7 +81,7 @@ input,select,button{
 	position:absolute;
 	bottom:1px;
 	z-index:2;
-	width:413px;
+	width:381px;
 	cursor:pointer;
 	left:0;
 }

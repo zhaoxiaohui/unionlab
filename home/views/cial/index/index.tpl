@@ -46,7 +46,7 @@
         		<div class="dd dot">
           			<ul>
 					<{ section name=rec loop=$recommends max=10 }>
-						<li><a href="<{$app}>/article/index/aid/<{ $recommends[rec].id }>"><{ $recommends[rec].title|truncate:25 }></a> <span style="font-size:10px">(<span class="redh"><{$recommends[rec].recommend}></span>人推荐)</span></li>
+						<li><a href="<{$app}>/article/index/aid/<{ $recommends[rec].id }>"><{ $recommends[rec].title|truncate:17}></a> <span style="font-size:10px">(<span class="redh"><{$recommends[rec].recommend}></span>人推荐)</span></li>
 					<{ sectionelse }>
 						<li>目前没有任何推荐文章</li>
 					<{ /section }>
@@ -55,7 +55,7 @@
         		 <div class="dd dot" style="display:none">
           			<ul>
 					<{ section name=hot loop=$hots max=10 }>
-						<li><a href="<{$app}>/article/index/aid/<{ $hots[hot].id }>"><{ $hots[hot].title|truncate:18 }></a>&nbsp;&nbsp;<span style="font-size:10px">(浏览<span class="redh"><{$hots[hot].views}></span>次)</span></li>
+						<li><a href="<{$app}>/article/index/aid/<{ $hots[hot].id }>"><{ $hots[hot].title|truncate:17}></a>&nbsp;&nbsp;<span style="font-size:10px">(浏览<span class="redh"><{$hots[hot].views}></span>次)</span></li>
 					<{ sectionelse }>
 						<li>目前没有任何热门文章</li>
 					<{ /section }>
@@ -64,7 +64,7 @@
 			<div class="dd dot" style="display:none">
             			<ul>
 					<{ section name=new loop=$news max=10 }>
-						<li><a href="<{$app}>/article/index/aid/<{ $news[new].id }>"><{ $news[new].title|truncate:25 }></a></li>
+						<li><a href="<{$app}>/article/index/aid/<{ $news[new].id }>"><{ $news[new].title|truncate:17 }></a></li>
 					<{ sectionelse }>
 						<li>目前没有任何文章更新</li>
 					<{ /section }>

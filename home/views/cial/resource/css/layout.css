@@ -1,22 +1,20 @@
 #content {
-	width:966px;
-	margin:auto;
-	text-align:left;
-	clear:both;
+    margin: auto;
+    text-align: left;
+    width:966px;
 }
 
 
-
+.box_head{width:966px; height:115px;}
 #header {
 	float:left;
 	width:100%;
-	background:white url(../images/header.gif) repeat-x bottom;
 }
 
 #header #top {
 	float:left;
 	width:100%;
-	height:25px;	
+	height:32px;	
 }
 
 #top #top_left {
@@ -78,9 +76,9 @@
 
 #menu {
 	float:left;
-	width:100%;
-	height:30px;
-	background:url(../images/menu.gif);
+	width:966px;
+	height:37px;
+	background:url(../images/nav.jpg) no-repeat;
 }
 
 #container {
@@ -94,7 +92,7 @@
 	height:60px;
 	text-align:center;
 	line-height:20px;
-	border-top:2px solid #FB9355;
+	border-top:2px solid #0099FF;
 	background:#fff url(../images/footer.gif) repeat-x top;
 }
 
@@ -120,14 +118,14 @@
 
 #col_2 {
 	float:left;
-	width:415px;
+	width:381px;
 	margin-left:10px;
 	height:212px;
 }
 
 #col_3 {
 	float:right;
-	width:266px;
+	width:300px;
 	height:212px;
 }
 
@@ -140,7 +138,7 @@
 
 .mbox2 {
 	margin-top:10px;
-	width:415px;
+	width:381px;
 	float:left;
 	margin-left:10px;
 	height:212px;
@@ -149,7 +147,7 @@
 .mbox3 {
 	margin-top:10px;
 	float:right;
-	width:266px;
+	width:300px;
 	margin-left:10px;
 	height:212px;
 }
@@ -269,7 +267,7 @@
 	padding-right:4px;
 	display:block;
 	float:left;
-	color:#555;
+	color:#FFFFFF;
 	background:url(../images/mbox-tbg.gif) left top no-repeat;
 	letter-spacing:1px;
 }
@@ -286,6 +284,7 @@
 	
 
 .dt strong a{
+	color:#FFFFFF;
 	padding-left:20px;
 	background:url(../images/tree_folder.gif) left center no-repeat;
 }
@@ -297,6 +296,10 @@
 	line-height:25px;
 	padding-right:8px;
 }
+.dt span.more a{
+	color:#FFFFFF;
+}
+
 
 .dt span.more a:hover {
 	position:relative;                       
@@ -311,7 +314,7 @@
 	padding-top:2px;
 	width:auto !important;
 	width:100%;
-	border:1px solid #FB9355;
+	border:1px solid #0099FF;
 	border-top:0px;
 	overflow:hidden;
 	background:#fff url(../images/header.gif) repeat-x bottom;

@@ -1,6 +1,7 @@
 <?php
 	class Article {
 		function index(){
+                    
 			$article=D("article");
 			
 			//设置访问数量
